@@ -11,6 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+/**
+ * Clase del adaptador del slider
+ */
 public class SliderAdapter extends PagerAdapter {
 
     Context context;
@@ -20,7 +23,7 @@ public class SliderAdapter extends PagerAdapter {
         this.context = context;
     }
 
-    //Arrays
+    //Array de las imagenes del slider
     public int[] slider_images = {
 
             R.drawable.confianza,
@@ -30,7 +33,7 @@ public class SliderAdapter extends PagerAdapter {
 
     };
 
-    //TITULOS
+    //Array de los TITULOS del slider
     public String[] slider_titles = {
             "CONFIANZA",
             "ATENCIÓN PERSONALIZADA",
@@ -38,7 +41,7 @@ public class SliderAdapter extends PagerAdapter {
             "RESULTADOS"
     };
 
-    //DESCRIPCIONES
+    //Array de los DESCRIPCIONES del slider
     public String[] slider_descriptions = {
             "En GoHealthy las personas son lo primero por eso somos líderes en confianza " +
                     "entre nuestros partners.",

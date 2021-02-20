@@ -31,12 +31,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
+                //abrimos el activity principal
                 Intent i = new Intent(MainActivity.this,HomeMenu.class);
                 startActivity(i);
-
+                //acabamos con el activity actual para que no se pueda volver a él
                 finish();
 
             }
-        }, 5000);
+        }, 5000); //delay de 5 segundos
     }
 }
