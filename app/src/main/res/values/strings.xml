@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoHealthyApp</string>
+    <string name="title_activity_maps_g_h">Map</string>
 </resources>

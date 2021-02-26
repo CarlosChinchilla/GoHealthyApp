@@ -83,16 +83,20 @@ public class HomeMenu extends AppCompatActivity implements View.OnClickListener 
                         switch (item.getItemId()) {
                             case R.id.itemWho:
                                 //ACTIVITY DE "QUIENES SOMOS"
-                                Intent i = new Intent(HomeMenu.this,WhoWeAre.class);
+                                Intent i = new Intent(HomeMenu.this, WhoWeAre.class);
                                 startActivity(i);
                                 break;
 
                             case R.id.itemWhere:
                                 //ACTIVITY DE "DONDE ESTAMOS"
+                                Intent e = new Intent(HomeMenu.this, WhereWeAre.class);
+                                startActivity(e);
                                 break;
 
                             case R.id.itemProd:
                                 //ACTIVITY DE "NUESTROS PRODUCTOS"
+                                Intent t = new Intent(HomeMenu.this, OurProducts.class);
+                                startActivity(t);
                                 break;
                         }
                         return false;
